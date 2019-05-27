@@ -1,0 +1,31 @@
+{
+  "name": "paycoreio/xmldsig",
+  "description": "Library for signing XML requests in accordance with the UOC rules",
+  "license": "MIT",
+  "keywords": [
+    "xml",
+    "xmldsig",
+    "signature",
+    "security",
+    "upc"
+  ],
+  "authors": [
+    {
+      "name": "Giancarlos Salas",
+      "email": "giansalex@gmail.com",
+      "url": "http://immcorp.com"
+    }
+  ],
+  "homepage": "https://github.com/paycoreio/xmldsig",
+  "autoload": {
+    "psr-4": {
+      "Greenter\\XMLSecLibs\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+   },
+  "suggest": {
+    "ext-openssl": "The OpenSsl Extension"
+  }
+}
