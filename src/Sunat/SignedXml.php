@@ -282,4 +282,14 @@ class SignedXml
 
         return $doc;
     }
+
+    public function setKeyAlgorithm(string $keyAlgorithm): void
+    {
+        $this->keyAlgorithm = $keyAlgorithm;
+    }
+
+    public function setDigestAlgorithm(string $digestAlgorithm): void
+    {
+        $this->digestAlgorithm = $digestAlgorithm;
+    }
 }
